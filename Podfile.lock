@@ -1,0 +1,34 @@
+PODS:
+  - CocoapodSubspecSample (0.1.0)
+  - CocoapodSubspecSample/FeatureOne (0.1.0)
+  - CocoapodSubspecSample/FeatureTwo (0.1.0):
+    - CocoapodSubspecSample/FeatureOne
+  - OCMock (3.4)
+  - UITestsSDK (0.1.0):
+    - CocoapodSubspecSample
+    - CocoapodSubspecSample/FeatureTwo
+
+DEPENDENCIES:
+  - CocoapodSubspecSample (from `CocoapodSubspecSample.podspec`)
+  - CocoapodSubspecSample/FeatureTwo (from `CocoapodSubspecSample.podspec`)
+  - OCMock (= 3.4)
+  - UITestsSDK (from `UITestsSDK.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - OCMock
+
+EXTERNAL SOURCES:
+  CocoapodSubspecSample:
+    :path: CocoapodSubspecSample.podspec
+  UITestsSDK:
+    :path: UITestsSDK.podspec
+
+SPEC CHECKSUMS:
+  CocoapodSubspecSample: 0e7556720a62a6e67fab5805f847e9e2cfe88b03
+  OCMock: 35ae71d6a8fcc1b59434d561d1520b9dd4f15765
+  UITestsSDK: ebf90d0850911626abc6dce267a2841b7820309a
+
+PODFILE CHECKSUM: 34580a88b37ecb872b459f70ebe6a4de4467acc0
+
+COCOAPODS: 1.10.0
