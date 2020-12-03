@@ -8,10 +8,6 @@ def dev_pods
   pod 'CocoapodSubspecSample/FeatureTwo', :path => 'CocoapodSubspecSample.podspec'
 end
 
-def eauitestsdk_remote_pod
-  pod 'EAUITestsSDK', :git => 'https://git.soma.salesforce.com/WaveMobile/EAUITestsSDK.git', :branch => 'master'
-end
-
 def unit_test_pods
   pod 'OCMock', '3.4'
 end

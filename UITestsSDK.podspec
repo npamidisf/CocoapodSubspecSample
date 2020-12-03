@@ -26,8 +26,8 @@ A shared UI Tests framework used to do automation tests.
 
   s.dependency 'CocoapodSubspecSample'
 
-  ## Pod install is only going through, if all subspecs in the `Podfile` matches the subspec deps in the dependent podspec
-  #s.dependency  'CocoapodSubspecSample/FeatureTwo'
+  # Pod install is only going through, if all subspecs in the `Podfile` matches the subspec deps in the dependent podspec
+  # s.dependency  'CocoapodSubspecSample/FeatureTwo'
 
   s.xcconfig = {
     "SWIFT_OBJC_INTERFACE_HEADER_NAME" => "",
